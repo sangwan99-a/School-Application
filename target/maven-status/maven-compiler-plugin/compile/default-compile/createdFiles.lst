@@ -97,7 +97,6 @@ com\school\communication\Message$MessageBuilder.class
 com\school\student\StudentMapper.class
 com\school\events\EventService.class
 com\school\library\BookService.class
-com\school\student\StudentService.java.tmp
 com\school\attendance\AttendanceEntity.class
 com\school\library\LibraryService.class
 com\school\results\mapper\ResultMapper.class
