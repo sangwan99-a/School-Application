@@ -1,181 +1,181 @@
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\communication\MessageController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\examination\ExamEntity.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\news\NewsRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\examination\ResultEntity.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\examination\ResultService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\config\jwt\JwtAuthenticationFilter.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\canteen\Item.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\transportation\RouteRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\academic\ClassService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\user\UserService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\library\BookIssueController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\config\WebConfig.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\gradebook\ReportCardController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\user\JwtUtil.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\timetable\TimetableRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\attendance\AttendanceController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\student\StudentService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\communication\MessageService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\examination\ExamResultController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\staff\StaffController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\academic\AcademicTimetableRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\student\StudentMapper.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\transportation\StudentRouteAssignmentController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\academic\AcademicTimetableController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\library\Book.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\SchoolApplication.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\communication\MessageEntity.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\gradebook\GradeRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\results\mapper\ResultMapper.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\library\TransactionController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\gradebook\ReportCardService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\transportation\BusController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\finance\FeeController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\results\ResultRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\student\StudentController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\examination\GradeService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\homework\HomeworkController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\communication\WebSocketConfig.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\finance\FeeService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\results\ResultsController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\canteen\CanteenController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\finance\FeesEntity.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\results\ResultEntity.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\certificates\CertificateRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\library\BookIssueEntity.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\student\Gender.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\certificates\CertificateService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\examination\ExamAssignmentService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\examination\Result.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\inventory\InventoryController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\library\BookController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\transportation\TransportationController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\academic\AcademicTimetableEntity.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\user\AuthController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\finance\FeesController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\admission\AdmissionRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\examination\ExamRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\academic\TimetableRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\library\TransactionRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\transportation\BusRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\examination\ExamSubject.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\examination\ExamSubjectController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\student\Student.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\controller\AuthController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\staff\StaffMapper.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\user\UserRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\admission\AdmissionService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\academic\TimetableEntity.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\examination\GradeRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\homework\HomeworkEntity.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\events\Event.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\timetable\Timetable.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\library\IssuedBookRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\communication\ChatController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\library\ReturnRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\examination\ExamResult.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\news\NewsService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\transportation\BusService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\canteen\Category.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\config\GlobalExceptionHandler.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\dashboard\DashboardController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\events\EventRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\timetable\TimetableService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\examination\ResultRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\examination\ExamAssignmentRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\academic\ClassRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\events\EventService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\examination\ExaminationResultController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\user\User.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\config\jwt\JwtTokenProvider.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\examination\Exam.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\homework\HomeworkRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\library\IssuedBook.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\user\UserDetailsServiceImpl.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\canteen\CanteenService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\communication\ChatMessage.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\library\BookRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\gradebook\ReportCard.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\homework\HomeworkService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\academic\TimetableService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\transportation\Bus.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\canteen\ItemRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\events\EventController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\examination\ResultController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\timetable\TimetableEntity.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\examination\GradeController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\communication\Message.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\staff\StaffRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\examination\ExamResultRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\finance\FeeEntity.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\library\TransactionService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\student\StudentRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\controller\PublicController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\results\ResultController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\news\NewsEntity.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\transportation\RouteService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\library\IssueEntity.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\transportation\RouteController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\gradebook\GradeController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\library\IssuedBookController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\examination\ExamController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\examination\ExamAssignment.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\examination\ExaminationResultService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\attendance\AttendanceEntity.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\library\LibraryController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\inventory\AssetRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\timetable\TimetableController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\student\StudentDTO.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\certificates\CertificateController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\certificates\CertificateEntity.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\news\NewsController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\attendance\Attendance.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\attendance\AttendanceRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\transportation\StudentRouteAssignment.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\library\BookService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\dashboard\DashboardService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\library\LibraryService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\results\ResultService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\staff\StaffService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\transportation\StudentRouteAssignmentService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\config\CustomUserDetailsService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\library\IssuedBookService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\gradebook\GradeService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\results\dto\ResultDTO.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\admission\AdmissionEntity.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\academic\ClassController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\attendance\dto\AttendanceSummaryDTO.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\config\CorsConfig.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\examination\ExamAssignmentController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\finance\FeeRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\academic\AcademicTimetableService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\examination\ExamService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\library\BookEntity.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\inventory\AssignmentRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\examination\ExamResultService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\inventory\AssetEntity.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\results\exception\ResultNotFoundException.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\academic\TimetableController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\library\BookIssueRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\library\IssueRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\transportation\StudentRouteAssignmentRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\finance\FeesRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\user\SecurityConfig.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\config\SecurityConfig.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\examination\GradeEntity.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\attendance\AttendanceService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\canteen\CategoryRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\staff\StaffEntity.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\library\BookIssueService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\dto\StudentDTO.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\examination\ExamSubjectService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\transportation\TransportationService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\communication\MessageRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\examination\ExamSubjectRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\gradebook\ReportCardRepository.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\library\Transaction.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\gradebook\Grade.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\inventory\InventoryService.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\admission\AdmissionController.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\transportation\Route.java
-C:\Users\Abc\Pictures\School Application\src\main\java\com\school\academic\ClassEntity.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\finance\FeeEntity.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\news\NewsService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\staff\StaffRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\library\IssuedBookService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\user\UserRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\ResultEntity.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\homework\HomeworkEntity.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\attendance\AttendanceService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\library\BookController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\results\ResultRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\user\User.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\communication\MessageService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\config\GlobalExceptionHandler.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\GradeController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\canteen\Item.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\transportation\BusRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\admission\AdmissionController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\results\dto\ResultDTO.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\transportation\Bus.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\GradeService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\certificates\CertificateService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\gradebook\Grade.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\controller\AuthController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\library\LibraryService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\library\ReturnRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\ExamResultService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\news\NewsRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\student\StudentController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\timetable\TimetableController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\ExamSubject.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\user\JwtUtil.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\canteen\CanteenService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\transportation\RouteService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\attendance\AttendanceController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\results\mapper\ResultMapper.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\user\UserDetailsServiceImpl.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\finance\FeeService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\admission\AdmissionEntity.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\library\Book.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\library\TransactionRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\news\NewsEntity.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\academic\ClassController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\library\IssuedBook.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\SchoolApplication.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\inventory\AssignmentRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\canteen\CategoryRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\transportation\StudentRouteAssignmentService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\transportation\BusController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\attendance\AttendanceEntity.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\homework\HomeworkRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\student\StudentDTO.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\inventory\InventoryController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\canteen\ItemRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\library\Transaction.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\transportation\Route.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\library\BookEntity.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\staff\StaffController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\dto\StudentDTO.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\attendance\dto\AttendanceSummaryDTO.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\communication\WebSocketConfig.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\gradebook\ReportCardRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\library\BookRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\staff\StaffMapper.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\config\SecurityConfig.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\timetable\Timetable.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\ExamEntity.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\dashboard\DashboardController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\ExaminationResultService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\staff\StaffService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\results\ResultService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\finance\FeeRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\news\NewsController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\config\WebConfig.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\ExamSubjectController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\config\jwt\JwtAuthenticationFilter.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\library\BookIssueService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\results\ResultController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\academic\ClassEntity.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\student\StudentService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\ExamAssignmentService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\Exam.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\dashboard\DashboardService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\library\BookIssueRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\admission\AdmissionRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\ExamAssignment.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\student\StudentMapper.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\canteen\Category.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\ExamAssignmentController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\ExamSubjectService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\finance\FeeController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\events\EventService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\academic\TimetableController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\finance\FeesController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\library\TransactionController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\events\EventRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\transportation\StudentRouteAssignmentController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\canteen\CanteenController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\homework\HomeworkController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\communication\MessageRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\attendance\AttendanceRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\transportation\TransportationService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\results\exception\ResultNotFoundException.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\ExamService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\ResultController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\config\CustomUserDetailsService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\results\ResultsController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\academic\ClassService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\academic\AcademicTimetableService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\academic\ClassRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\academic\AcademicTimetableController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\finance\FeesEntity.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\certificates\CertificateController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\certificates\CertificateRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\events\Event.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\gradebook\ReportCardService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\ExamResultRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\inventory\InventoryService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\library\BookIssueEntity.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\library\IssuedBookController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\gradebook\GradeController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\inventory\AssetEntity.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\homework\HomeworkService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\ExamRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\library\BookService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\student\Student.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\timetable\TimetableService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\gradebook\ReportCardController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\timetable\TimetableEntity.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\user\SecurityConfig.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\admission\AdmissionService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\timetable\TimetableRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\transportation\RouteRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\events\EventController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\communication\ChatController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\finance\FeesRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\results\ResultEntity.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\academic\AcademicTimetableEntity.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\communication\MessageEntity.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\ExamResult.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\student\Gender.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\transportation\StudentRouteAssignment.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\library\IssueRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\transportation\RouteController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\library\IssuedBookRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\gradebook\GradeRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\library\LibraryController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\transportation\BusService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\certificates\CertificateEntity.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\Result.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\library\BookIssueController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\transportation\StudentRouteAssignmentRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\user\AuthController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\communication\Message.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\ExamController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\academic\TimetableRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\config\CorsConfig.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\attendance\Attendance.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\controller\PublicController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\ResultService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\inventory\AssetRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\ExamAssignmentRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\config\jwt\JwtTokenProvider.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\ExamSubjectRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\academic\TimetableEntity.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\ExaminationResultController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\ResultRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\communication\MessageController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\ExamResultController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\student\StudentRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\academic\AcademicTimetableRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\gradebook\GradeService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\library\IssueEntity.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\user\UserService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\staff\StaffEntity.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\gradebook\ReportCard.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\GradeRepository.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\communication\ChatMessage.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\library\TransactionService.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\transportation\TransportationController.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\GradeEntity.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\academic\TimetableService.java
