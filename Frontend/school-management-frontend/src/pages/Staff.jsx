@@ -38,7 +38,7 @@ export default function Staff() {
   const fetchStaff = async () => {
     setLoading(true);
     try {
-      const res = await axios.get("http://localhost:8081/api/staff");
+  const res = await axios.get("http://localhost:8080/api/staff");
       setStaff(res.data);
     } catch (err) {
       setError("Failed to load staff");
@@ -59,9 +59,9 @@ export default function Staff() {
     e.preventDefault();
     try {
       if (editId) {
-        await axios.put(`http://localhost:8081/api/staff/${editId}`, form);
+  await axios.put(`http://localhost:8080/api/staff/${editId}`, form);
       } else {
-        await axios.post("http://localhost:8081/api/staff", form);
+  await axios.post("http://localhost:8080/api/staff", form);
       }
       setForm({ name: '', email: '', phone: '', position: '', category: '', subCategory: '', search: '' });
       setEditId(null);
@@ -79,7 +79,7 @@ export default function Staff() {
   const handleDelete = async id => {
     if (!window.confirm("Delete this staff member?")) return;
     try {
-      await axios.delete(`http://localhost:8081/api/staff/${id}`);
+  await axios.delete(`http://localhost:8080/api/staff/${id}`);
       fetchStaff();
     } catch (err) {
       setError("Failed to delete staff member");

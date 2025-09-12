@@ -15,7 +15,7 @@ const StatisticCards = () => {
   const handleSearch = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:8081/api/students/search",
+  "http://localhost:8080/api/students/search",
         {
           params: search,
         }
