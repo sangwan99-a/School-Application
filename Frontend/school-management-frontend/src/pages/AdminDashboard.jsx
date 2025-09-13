@@ -17,7 +17,7 @@ const AdminDashboard = () => {
     setLoading(true);
     setError(null);
     try {
-  const response = await axios.get('http://localhost:8081/api/admissions');
+  const response = await axios.get('https://school-application-zs1l.onrender.com/api/admissions');
       setAdmissions(response.data);
       setSuccess('Admissions loaded successfully');
     } catch (err) {

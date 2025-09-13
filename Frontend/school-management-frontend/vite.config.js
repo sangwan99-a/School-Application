@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-  '/api': 'http://localhost:8081'
+  '/api': 'https://school-application-zs1l.onrender.com/api'
     }
   }
 })
