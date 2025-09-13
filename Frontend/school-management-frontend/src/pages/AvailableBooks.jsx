@@ -7,7 +7,7 @@ export default function AvailableBooks() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-  axios.get("http://localhost:8080/api/books/available")
+  axios.get("http://localhost:8081/api/books/available")
       .then(res => setBooks(res.data))
       .catch(() => setError("Failed to load available books"))
       .finally(() => setLoading(false));

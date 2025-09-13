@@ -7,14 +7,14 @@ export default function IssuedBooks() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-  axios.get("http://localhost:8080/api/book-issues/issued")
+  axios.get("http://localhost:8081/api/book-issues/issued")
       .then(res => setIssued(res.data))
       .catch(() => setError("Failed to load issued books"))
       .finally(() => setLoading(false));
   }, []);
 
   const handleReturn = async (id) => {
-  await axios.post(`http://localhost:8080/api/book-issues/${id}/return`);
+  await axios.post(`http://localhost:8081/api/book-issues/${id}/return`);
     setIssued(issued => issued.filter(bi => bi.id !== id));
   };
 

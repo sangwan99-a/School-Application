@@ -18,8 +18,8 @@ function AdmissionApplicationsCard() {
     async function fetchAdmissionsAndClasses() {
       try {
         const [admRes, classRes] = await Promise.all([
-          axios.get("http://localhost:8080/api/admissions"),
-          axios.get("http://localhost:8080/api/classes")
+          axios.get("http://localhost:8081/api/admissions"),
+          axios.get("http://localhost:8081/api/classes")
         ]);
         setAdmissions(admRes.data);
         setClasses(classRes.data);
@@ -48,11 +48,11 @@ function AdmissionApplicationsCard() {
           setActionLoading(false);
           return;
         }
-  await axios.post(`http://localhost:8080/api/admissions/${adm.id}/approve?classId=${classId}`);
+  await axios.post(`http://localhost:8081/api/admissions/${adm.id}/approve?classId=${classId}`);
         setActionSuccess("Application approved.");
       } else if (status === "REJECTED") {
         // You need to implement a reject endpoint in backend for this to work
-  await axios.post(`http://localhost:8080/api/admissions/${adm.id}/reject`);
+  await axios.post(`http://localhost:8081/api/admissions/${adm.id}/reject`);
         setActionSuccess("Application rejected.");
       }
       setSelected(null);
