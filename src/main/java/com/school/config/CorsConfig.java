@@ -15,7 +15,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(@NonNull CorsRegistry registry) {
                 registry.addMapping("/**") // allow all endpoints
-                        .allowedOrigins("http://localhost:5173", "https://school-application-zs1l.onrender.com") // React frontend and Render
+                        .allowedOrigins("http://localhost:5173", "https://school-application-zs1l.onrender.com", "https://school-application-1-1ppn.onrender.com") // React frontend and both Render domains
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);
