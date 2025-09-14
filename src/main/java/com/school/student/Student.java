@@ -1,9 +1,11 @@
 package com.school.student;
 
 import jakarta.persistence.*;
+import jakarta.persistence.Table;
 import lombok.Data;
 
 @Entity
+@Table(name = "student")
 @Data
 public class Student {
 

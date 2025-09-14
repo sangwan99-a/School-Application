@@ -1,9 +1,11 @@
 package com.school.finance;
 
 import jakarta.persistence.*;
+import jakarta.persistence.Table;
 import lombok.Data;
 
 @Entity
+@Table(name = "fee_entity")
 @Data
 public class FeeEntity {
 
