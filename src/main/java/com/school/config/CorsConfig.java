@@ -15,15 +15,10 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(@NonNull CorsRegistry registry) {
         registry.addMapping("/**") // allow all endpoints
-            .allowedOrigins(
-                "https://school-application-1-1ppn.onrender.com",
-                "http://localhost:8080",
-                "http://localhost:3000",
-                "http://localhost:5173"
-            ) // React frontend and deployed frontend
+            .allowedOrigins("*") // allow all origins
             .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
             .allowedHeaders("*")
-            .allowCredentials(true);
+            .allowCredentials(false); // credentials not allowed for all origins
             }
         };
     }
