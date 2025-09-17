@@ -15,10 +15,15 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(@NonNull CorsRegistry registry) {
         registry.addMapping("/**") // allow all endpoints
-            .allowedOrigins("*") // allow all origins
+            .allowedOrigins(
+                "http://localhost:5173",
+                "https://school-application-1-1ppn.onrender.com",
+                "https://school-application-zs1l.onrender.com",
+                "https://school-application-jpuw.onrender.com"
+            )
             .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
             .allowedHeaders("*")
-            .allowCredentials(false); // credentials not allowed for all origins
+            .allowCredentials(true); // allow credentials for specific origins
             }
         };
     }
