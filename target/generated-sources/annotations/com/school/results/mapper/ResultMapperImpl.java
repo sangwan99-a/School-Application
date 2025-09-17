@@ -9,8 +9,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-09-17T20:56:16+0530",
-    comments = "version: 1.5.5.Final, compiler: javac, environment: Java 17.0.12 (Oracle Corporation)"
+    date = "2025-09-17T21:49:11+0530",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.43.0.v20250819-1513, environment: Java 21.0.8 (Eclipse Adoptium)"
 )
 @Component
 public class ResultMapperImpl implements ResultMapper {
@@ -23,9 +23,9 @@ public class ResultMapperImpl implements ResultMapper {
 
         ResultDTO resultDTO = new ResultDTO();
 
+        resultDTO.setGrade( entity.getGrade() );
         resultDTO.setId( entity.getId() );
         resultDTO.setMarksObtained( entity.getMarksObtained() );
-        resultDTO.setGrade( entity.getGrade() );
         resultDTO.setRemarks( entity.getRemarks() );
 
         return resultDTO;

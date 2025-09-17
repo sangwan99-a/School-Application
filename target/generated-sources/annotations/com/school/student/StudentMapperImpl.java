@@ -8,8 +8,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-09-17T20:56:14+0530",
-    comments = "version: 1.5.5.Final, compiler: javac, environment: Java 17.0.12 (Oracle Corporation)"
+    date = "2025-09-17T21:49:31+0530",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.43.0.v20250819-1513, environment: Java 21.0.8 (Eclipse Adoptium)"
 )
 @Component
 public class StudentMapperImpl implements StudentMapper {
@@ -29,20 +29,20 @@ public class StudentMapperImpl implements StudentMapper {
             studentDTO.setProfilePhoto( Arrays.copyOf( profilePhoto, profilePhoto.length ) );
         }
         studentDTO.setProfilePhotoName( student.getProfilePhotoName() );
-        studentDTO.setId( student.getId() );
-        studentDTO.setFirstName( student.getFirstName() );
-        studentDTO.setLastName( student.getLastName() );
-        studentDTO.setEmail( student.getEmail() );
-        studentDTO.setPhoneNumber( student.getPhoneNumber() );
         studentDTO.setAddress( student.getAddress() );
-        studentDTO.setFatherName( student.getFatherName() );
-        studentDTO.setMotherName( student.getMotherName() );
         studentDTO.setDateOfBirth( student.getDateOfBirth() );
-        studentDTO.setGender( student.getGender() );
-        studentDTO.setNationality( student.getNationality() );
+        studentDTO.setEmail( student.getEmail() );
         studentDTO.setEmergencyContact( student.getEmergencyContact() );
+        studentDTO.setFatherName( student.getFatherName() );
+        studentDTO.setFirstName( student.getFirstName() );
+        studentDTO.setGender( student.getGender() );
         studentDTO.setGuardianName( student.getGuardianName() );
         studentDTO.setGuardianRelationship( student.getGuardianRelationship() );
+        studentDTO.setId( student.getId() );
+        studentDTO.setLastName( student.getLastName() );
+        studentDTO.setMotherName( student.getMotherName() );
+        studentDTO.setNationality( student.getNationality() );
+        studentDTO.setPhoneNumber( student.getPhoneNumber() );
 
         return studentDTO;
     }
@@ -61,20 +61,20 @@ public class StudentMapperImpl implements StudentMapper {
             student.setProfilePhoto( Arrays.copyOf( profilePhoto, profilePhoto.length ) );
         }
         student.setProfilePhotoName( studentDTO.getProfilePhotoName() );
-        student.setId( studentDTO.getId() );
-        student.setFirstName( studentDTO.getFirstName() );
-        student.setLastName( studentDTO.getLastName() );
-        student.setEmail( studentDTO.getEmail() );
-        student.setPhoneNumber( studentDTO.getPhoneNumber() );
         student.setAddress( studentDTO.getAddress() );
-        student.setFatherName( studentDTO.getFatherName() );
-        student.setMotherName( studentDTO.getMotherName() );
         student.setDateOfBirth( studentDTO.getDateOfBirth() );
-        student.setGender( studentDTO.getGender() );
-        student.setNationality( studentDTO.getNationality() );
+        student.setEmail( studentDTO.getEmail() );
         student.setEmergencyContact( studentDTO.getEmergencyContact() );
+        student.setFatherName( studentDTO.getFatherName() );
+        student.setFirstName( studentDTO.getFirstName() );
+        student.setGender( studentDTO.getGender() );
         student.setGuardianName( studentDTO.getGuardianName() );
         student.setGuardianRelationship( studentDTO.getGuardianRelationship() );
+        student.setId( studentDTO.getId() );
+        student.setLastName( studentDTO.getLastName() );
+        student.setMotherName( studentDTO.getMotherName() );
+        student.setNationality( studentDTO.getNationality() );
+        student.setPhoneNumber( studentDTO.getPhoneNumber() );
 
         return student;
     }
@@ -96,47 +96,47 @@ public class StudentMapperImpl implements StudentMapper {
         if ( studentDTO.getProfilePhotoName() != null ) {
             student.setProfilePhotoName( studentDTO.getProfilePhotoName() );
         }
-        if ( studentDTO.getId() != null ) {
-            student.setId( studentDTO.getId() );
-        }
-        if ( studentDTO.getFirstName() != null ) {
-            student.setFirstName( studentDTO.getFirstName() );
-        }
-        if ( studentDTO.getLastName() != null ) {
-            student.setLastName( studentDTO.getLastName() );
-        }
-        if ( studentDTO.getEmail() != null ) {
-            student.setEmail( studentDTO.getEmail() );
-        }
-        if ( studentDTO.getPhoneNumber() != null ) {
-            student.setPhoneNumber( studentDTO.getPhoneNumber() );
-        }
         if ( studentDTO.getAddress() != null ) {
             student.setAddress( studentDTO.getAddress() );
-        }
-        if ( studentDTO.getFatherName() != null ) {
-            student.setFatherName( studentDTO.getFatherName() );
-        }
-        if ( studentDTO.getMotherName() != null ) {
-            student.setMotherName( studentDTO.getMotherName() );
         }
         if ( studentDTO.getDateOfBirth() != null ) {
             student.setDateOfBirth( studentDTO.getDateOfBirth() );
         }
-        if ( studentDTO.getGender() != null ) {
-            student.setGender( studentDTO.getGender() );
-        }
-        if ( studentDTO.getNationality() != null ) {
-            student.setNationality( studentDTO.getNationality() );
+        if ( studentDTO.getEmail() != null ) {
+            student.setEmail( studentDTO.getEmail() );
         }
         if ( studentDTO.getEmergencyContact() != null ) {
             student.setEmergencyContact( studentDTO.getEmergencyContact() );
+        }
+        if ( studentDTO.getFatherName() != null ) {
+            student.setFatherName( studentDTO.getFatherName() );
+        }
+        if ( studentDTO.getFirstName() != null ) {
+            student.setFirstName( studentDTO.getFirstName() );
+        }
+        if ( studentDTO.getGender() != null ) {
+            student.setGender( studentDTO.getGender() );
         }
         if ( studentDTO.getGuardianName() != null ) {
             student.setGuardianName( studentDTO.getGuardianName() );
         }
         if ( studentDTO.getGuardianRelationship() != null ) {
             student.setGuardianRelationship( studentDTO.getGuardianRelationship() );
+        }
+        if ( studentDTO.getId() != null ) {
+            student.setId( studentDTO.getId() );
+        }
+        if ( studentDTO.getLastName() != null ) {
+            student.setLastName( studentDTO.getLastName() );
+        }
+        if ( studentDTO.getMotherName() != null ) {
+            student.setMotherName( studentDTO.getMotherName() );
+        }
+        if ( studentDTO.getNationality() != null ) {
+            student.setNationality( studentDTO.getNationality() );
+        }
+        if ( studentDTO.getPhoneNumber() != null ) {
+            student.setPhoneNumber( studentDTO.getPhoneNumber() );
         }
     }
 
