@@ -38,6 +38,7 @@ com\school\dashboard\DashboardService.class
 com\school\dto\StudentDTO.class
 com\school\transportation\BusRepository.class
 com\school\library\LibraryController.class
+com\school\admin\AdminDashboardController.class
 com\school\library\IssueEntity.class
 com\school\inventory\AssetEntity.class
 com\school\communication\ChatMessage.class
@@ -85,9 +86,7 @@ com\school\library\BookIssueRepository.class
 com\school\results\exception\ResultNotFoundException.class
 com\school\examination\ResultController.class
 com\school\staff\StaffMapperImpl.class
-com\school\user\User.class
 com\school\events\EventController.class
-com\school\user\User$UserBuilder.class
 com\school\events\Event.class
 com\school\config\CorsConfig$1.class
 com\school\SchoolApplication.class
@@ -100,7 +99,6 @@ com\school\library\BookService.class
 com\school\attendance\AttendanceEntity.class
 com\school\library\LibraryService.class
 com\school\results\mapper\ResultMapper.class
-com\school\user\User$Role.class
 com\school\config\CorsConfig.class
 com\school\staff\StaffController.class
 com\school\finance\FeeEntity.class
@@ -117,6 +115,7 @@ com\school\config\GlobalExceptionHandler.class
 com\school\examination\ExamSubjectController.class
 com\school\attendance\AttendanceService.class
 com\school\examination\ExamSubjectRepository.class
+com\school\user\AppUser$Role.class
 com\school\academic\ClassRepository.class
 com\school\transportation\BusController.class
 com\school\dashboard\DashboardController.class
@@ -135,6 +134,7 @@ com\school\library\IssuedBook.class
 com\school\library\TransactionController.class
 com\school\examination\ExamResultController.class
 com\school\gradebook\ReportCard.class
+com\school\user\AppUser$AppUserBuilder.class
 com\school\gradebook\ReportCardRepository.class
 com\school\library\BookRepository.class
 com\school\library\IssueRepository.class
@@ -160,6 +160,7 @@ com\school\certificates\CertificateService.class
 com\school\admission\AdmissionEntity.class
 com\school\transportation\StudentRouteAssignment.class
 com\school\canteen\CanteenService.class
+com\school\user\AppUser.class
 com\school\academic\ClassEntity.class
 com\school\homework\HomeworkRepository.class
 com\school\transportation\Route.class

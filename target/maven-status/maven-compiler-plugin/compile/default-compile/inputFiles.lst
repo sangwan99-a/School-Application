@@ -8,7 +8,6 @@ C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\homework\Homew
 C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\attendance\AttendanceService.java
 C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\library\BookController.java
 C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\results\ResultRepository.java
-C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\user\User.java
 C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\communication\MessageService.java
 C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\config\GlobalExceptionHandler.java
 C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\examination\GradeController.java
@@ -56,6 +55,7 @@ C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\transportation
 C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\library\BookEntity.java
 C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\staff\StaffController.java
 C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\dto\StudentDTO.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\user\AppUser.java
 C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\attendance\dto\AttendanceSummaryDTO.java
 C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\communication\WebSocketConfig.java
 C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\gradebook\ReportCardRepository.java
@@ -109,6 +109,7 @@ C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\academic\Acade
 C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\academic\ClassRepository.java
 C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\academic\AcademicTimetableController.java
 C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\finance\FeesEntity.java
+C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\admin\AdminDashboardController.java
 C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\certificates\CertificateController.java
 C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\certificates\CertificateRepository.java
 C:\Users\Abc\Pictures\School-Application\src\main\java\com\school\events\Event.java
