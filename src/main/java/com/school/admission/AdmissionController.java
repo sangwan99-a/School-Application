@@ -131,4 +131,22 @@ public class AdmissionController {
                     .body("Exception: " + e.getMessage());
         }
     }
+
+    @PostMapping("/{id}/reject")
+    public ResponseEntity<?> rejectAdmission(@PathVariable Long id) {
+        try {
+            boolean success = admissionService.rejectAdmission(id);
+            if (success) {
+                return ResponseEntity.ok().build();
+            } else {
+                logger.error("Failed to reject admission for id {}: Service returned false", id);
+                return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                        .body("Failed to reject admission. See server logs for details.");
+            }
+        } catch (Exception e) {
+            logger.error("Exception while rejecting admission for id {}: {}", id, e.getMessage(), e);
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body("Exception: " + e.getMessage());
+        }
+    }
 }

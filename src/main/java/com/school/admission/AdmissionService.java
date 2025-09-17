@@ -92,4 +92,25 @@ public class AdmissionService {
     public void deleteAdmission(Long id) {
         admissionRepository.deleteById(id);
     }
+    @Transactional
+    public boolean rejectAdmission(Long id) {
+        AdmissionEntity admission = admissionRepository.findById(id).orElse(null);
+        if (admission == null) {
+            System.err.println("Admission not found for id: " + id);
+            return false;
+        }
+        if (!"PENDING".equals(admission.getStatus())) {
+            System.err.println("Admission status is not PENDING for id: " + id + ", status: " + admission.getStatus());
+            return false;
+        }
+        try {
+            admission.setStatus("REJECTED");
+            admissionRepository.save(admission);
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.err.println("Exception while rejecting admission for id " + id + ": " + e.getMessage());
+            return false;
+        }
+    }
 }
