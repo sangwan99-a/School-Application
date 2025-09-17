@@ -14,16 +14,11 @@ public class CorsConfig {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(@NonNull CorsRegistry registry) {
-        registry.addMapping("/**") // allow all endpoints
-            .allowedOrigins(
-                "http://localhost:5173",
-                "https://school-application-1-1ppn.onrender.com",
-                "https://school-application-zs1l.onrender.com",
-                "https://school-application-jpuw.onrender.com"
-            )
-            .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
-            .allowedHeaders("*")
-            .allowCredentials(true); // allow credentials for specific origins
+         registry.addMapping("/**")
+            .allowedOriginPatterns("*") // allow all origins
+            .allowedMethods("*") // allow all HTTP methods
+            .allowedHeaders("*") // allow all headers
+            .allowCredentials(true); // allow credentials for all origins
             }
         };
     }
