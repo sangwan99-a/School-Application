@@ -14,10 +14,10 @@ public class WebConfig {
             @Override
             public void addCorsMappings(@NonNull CorsRegistry registry) {
         registry.addMapping("/**")
-            .allowedOriginPatterns("*") // allow all origins
-            .allowedMethods("*") // allow all HTTP methods
-            .allowedHeaders("*") // allow all headers
-            .allowCredentials(true); // allow credentials for all origins
+    .allowedOrigins("https://school-application-1-2kpo.onrender.com", "http://localhost:5173") // replace with your actual frontend URL
+    .allowedMethods("*")
+    .allowedHeaders("*")
+    .allowCredentials(true);
             }
         };
     }

@@ -14,12 +14,16 @@ public class CorsConfig {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(@NonNull CorsRegistry registry) {
-         registry.addMapping("/**")
-            .allowedOriginPatterns("*") // allow all origins
-            .allowedMethods("*") // allow all HTTP methods
-            .allowedHeaders("*") // allow all headers
-            .allowCredentials(true); // allow credentials for all origins
+                registry.addMapping("/**")
+                    .allowedOrigins(
+                        "https://school-application-1-2kpo.onrender.com", // your deployed frontend URL
+                        "http://localhost:5173"               // React dev server (if you test locally)
+                    )
+                    .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
+                    .allowedHeaders("*")
+                    .allowCredentials(true);
             }
         };
     }
 }
+
