@@ -51,7 +51,7 @@ export default function Students() {
   const fetchStudents = async () => {
     setLoading(true)
     try {
-  const res = await axios.get("https://school-application-zs1l.onrender.com/api/students")
+  const res = await axios.get("https://school-application-tkmu.onrender.com/api/students")
       setStudents(res.data)
     } catch (err) {
       setError("Failed to load students")
@@ -62,7 +62,7 @@ export default function Students() {
 
   const fetchClasses = async () => {
     try {
-  const res = await axios.get("https://school-application-zs1l.onrender.com/api/classes")
+  const res = await axios.get("https://school-application-tkmu.onrender.com/api/classes")
       setClasses(res.data)
     } catch (err) {
       setClasses([])
@@ -91,9 +91,9 @@ export default function Students() {
     try {
       let response;
       if (editId) {
-  response = await axios.put(`https://school-application-zs1l.onrender.com/api/students/${editId}`, payload)
+  response = await axios.put(`https://school-application-tkmu.onrender.com/api/students/${editId}`, payload)
       } else {
-  response = await axios.post("https://school-application-zs1l.onrender.com/api/students", payload)
+  response = await axios.post("https://school-application-tkmu.onrender.com/api/students", payload)
       }
       console.log('Student save response:', response)
       setForm({
@@ -135,7 +135,7 @@ export default function Students() {
   const handleDelete = async id => {
     if (!window.confirm("Delete this student?")) return
     try {
-  await axios.delete(`https://school-application-zs1l.onrender.com/api/students/${id}`)
+  await axios.delete(`https://school-application-tkmu.onrender.com/api/students/${id}`)
       fetchStudents()
     } catch (err) {
       setError("Failed to delete student")

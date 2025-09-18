@@ -66,7 +66,7 @@ export default function Classes() {
   const fetchClasses = async () => {
     setLoading(true)
     try {
-  const res = await axios.get("https://school-application-zs1l.onrender.com/api/classes")
+  const res = await axios.get("https://school-application-tkmu.onrender.com/api/classes")
       setClasses(res.data)
     } catch (err) {
       setError("Failed to load classes")
@@ -87,9 +87,9 @@ export default function Classes() {
     e.preventDefault()
     try {
       if (editId) {
-  await axios.put(`https://school-application-zs1l.onrender.com/api/classes/${editId}`, form)
+  await axios.put(`https://school-application-tkmu.onrender.com/api/classes/${editId}`, form)
       } else {
-  await axios.post("https://school-application-zs1l.onrender.com/api/classes", form)
+  await axios.post("https://school-application-tkmu.onrender.com/api/classes", form)
       }
       setForm({ name: '', section: '', teacher: '' })
       setEditId(null)
@@ -111,7 +111,7 @@ export default function Classes() {
   const handleDelete = async id => {
     if (!window.confirm("Delete this class?")) return
     try {
-  await axios.delete(`https://school-application-zs1l.onrender.com/api/classes/${id}`)
+  await axios.delete(`https://school-application-tkmu.onrender.com/api/classes/${id}`)
       fetchClasses()
     } catch (err) {
       setError("Failed to delete class")
@@ -153,7 +153,7 @@ export default function Classes() {
                 setModalClass(c);
                 setShowModal(true);
                 try {
-                  const res = await axios.get(`https://school-application-zs1l.onrender.com/api/classes/${c.id}/students`);
+                  const res = await axios.get(`https://school-application-tkmu.onrender.com/api/classes/${c.id}/students`);
                   setModalStudents(res.data);
                 } catch {
                   setModalStudents([]);

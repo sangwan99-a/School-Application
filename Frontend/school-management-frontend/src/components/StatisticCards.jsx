@@ -15,7 +15,7 @@ const StatisticCards = () => {
   const handleSearch = async () => {
     try {
       const response = await axios.get(
-  "https://school-application-zs1l.onrender.com/api/students/search",
+  "https://school-application-tkmu.onrender.com/api/students/search",
         {
           params: search,
         }

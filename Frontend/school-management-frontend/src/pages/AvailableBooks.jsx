@@ -7,7 +7,7 @@ export default function AvailableBooks() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-  axios.get("https://school-application-zs1l.onrender.com/api/books/available")
+  axios.get("https://school-application-tkmu.onrender.com/api/books/available")
       .then(res => setBooks(res.data))
       .catch(() => setError("Failed to load available books"))
       .finally(() => setLoading(false));
